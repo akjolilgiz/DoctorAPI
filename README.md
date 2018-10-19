@@ -32,8 +32,8 @@ _None._
 |#|Spec Description|Input|Expected Output|
 |-------|-------|------|------|
 |1|The program lets user enter a medical issue and receive a list of doctors with that specialty|"headache"|"doctor info"|
-|2|The program lets user seach for a doctor by name and return basic information|"Dr.Dre"|Dr.Dre, Phonenumber, Address...|
-|3|The program return message if there are not doctors that meet criteria|"Dr.Dre"|There are no doctors that meet your criteria|
+|2|The program lets user seach for a doctor by name and return basic information|"Dr.Dre"|Dr.Dre, Phone number, Address...|
+|3|The program returns message if there are not doctors that meet search criteria|"Dr.Dre"|There are no doctors that meet your criteria|
 
 
 ## Technologies Used
