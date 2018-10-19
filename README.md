@@ -15,7 +15,7 @@ _Create a page that lets user look up doctors within certain area by symptoms or
 * Open file in terminal.
 * Run the command install npm from terminal
 * Navigate to DoctorAPI to register for an API key.
-* Create an .env file, add your new API key.
+* Create an .env file, add your new API key(API_KEY=[your api key]).
 * Save .env file
 * Run the command npm run build
 * Run command npm run start
