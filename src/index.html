@@ -4,19 +4,30 @@
     <title>DoctorAPI</title>
   </head>
   <body>
-    <p>DoctorAPI</p>
-    <form id="searchByName">
-      <label for="doctorName">Doctor's Name</label>
-      <input id="doctorName" type="text">
-      <button type="submit" class="btn btn-success">Search</button>
-    </form>
+    <h1><p class="jumbotron header">DoctorAPI</p></h1>
+    <div class="container">
+    <div class="row">
+    <div class="column">
+        <form id="searchByName">
+            <label for="doctorName">Search doctor by name</label>
+            <input id="doctorName" type="text">
+            <button type="submit" class="btn btn-success">Search</button>
+          </form>
+    </div>
+    <div class="column">
+        <form id="searchBySymptoms">
+            <label for="symptom">Search doctor by symptom</label>
+            <input id="symptom" type="text">
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
+      </div>
+    </div>
+   
     <hr>
-    <form id="searchBySymptoms">
-      <label for="symptom">Add symptom</label>
-      <input id="symptom" type="text">
-      <button type="submit" class="btn btn-success">Submit</button>
-    </form>
+ 
+  
     <div id="results">
     </div>
+  </div>
   </body>
 </html>
