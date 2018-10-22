@@ -42,7 +42,7 @@ $(document).ready(function() {
             if (result.length === 0){$("#results").append("There are no doctors that meet your criteria")}
             else {
             for(var i=0; i < result.length; i++) {
-            $("#results").append("Fist name : " +  result[i].profile.first_name + "<br>" +  "Last name : " + result[i].profile.last_name + "<br>"+ "Phone number: " + result[i].practices[0].phones[0].number + "<br>" + "Address : " + "<br>" + "City: " + result[i].practices[0].visit_address.city + "<br>" + "State: " + result[i].practices[0].visit_address.state + "<br>" + 
+            $("#results").append("First name : " +  result[i].profile.first_name + "<br>" +  "Last name : " + result[i].profile.last_name + "<br>"+ "Phone number: " + result[i].practices[0].phones[0].number + "<br>" + "Address : " + "<br>" + "City: " + result[i].practices[0].visit_address.city + "<br>" + "State: " + result[i].practices[0].visit_address.state + "<br>" + 
             "Street: " + result[i].practices[0].visit_address.street + "<br>" + 
             "Zip: " + result[i].practices[0].visit_address.zip + "<br>" + "<hr>");
             }   
